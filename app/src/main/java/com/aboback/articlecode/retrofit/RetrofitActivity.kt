@@ -1,10 +1,10 @@
-package com.jhb.androidplus5.hencoderplus.day1_5http.retrofit
+package com.aboback.articlecode.retrofit
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.jhb.androidplus5.log
+import com.aboback.articlecode.log
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import retrofit2.Call

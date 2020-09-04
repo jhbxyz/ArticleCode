@@ -1,4 +1,4 @@
-package com.jhb.androidplus5.hencoderplus.day1_5http.retrofit
+package com.aboback.articlecode.retrofit
 
 import io.reactivex.Single
 import retrofit2.Call

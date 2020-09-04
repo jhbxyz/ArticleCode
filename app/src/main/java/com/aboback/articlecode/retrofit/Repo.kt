@@ -1,4 +1,4 @@
-package com.jhb.androidplus5.hencoderplus.day1_5http.retrofit
+package com.aboback.articlecode.retrofit
 
 /**
  * @author jhb
