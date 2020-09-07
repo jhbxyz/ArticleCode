@@ -24,15 +24,15 @@ interface GitHubApiService {
     suspend fun listReposKt(@Path("user") user: String?): List<Repo>
 
 
-    //如果 GitHub 服务器访问异常,可以使用此测试接口,接口有 wanandroid 网站提供
+    //如果 GitHub 服务器访问异常,可以使用此测试接口,接口由 wanandroid 网站提供
     @GET("https://wanandroid.com/wxarticle/chapters/json")
     fun test(): Call<Any>
 
-    //如果 GitHub 服务器访问异常,可以使用此测试接口,接口有 wanandroid 网站提供
+    //如果 GitHub 服务器访问异常,可以使用此测试接口,接口由 wanandroid 网站提供
     @GET("https://wanandroid.com/wxarticle/chapters/json")
     fun testRx(): Single<Any>
 
-    //如果 GitHub 服务器访问异常,可以使用此测试接口,接口有 wanandroid 网站提供
+    //如果 GitHub 服务器访问异常,可以使用此测试接口,接口由 wanandroid 网站提供
     @GET("https://wanandroid.com/wxarticle/chapters/json")
     suspend fun testKt(): Any
 
