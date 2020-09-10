@@ -25,7 +25,7 @@ class RetrofitActivity : AppCompatActivity() {
         //初始化一个Retrofit对象
         val retrofit = Retrofit.Builder()
             .baseUrl("https://api.github.com/")
-            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+//            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .addConverterFactory(GsonConverterFactory.create())
             .build()
         //创建出GitHubApiService对象
@@ -34,9 +34,9 @@ class RetrofitActivity : AppCompatActivity() {
         //普通的请求方式
         normalRequest(service)
         //RxJava的请求方式
-        rxJavaRequest(service)
+//        rxJavaRequest(service)
         //Kotlin协程的请求方式
-        ktRequest(service)
+//        ktRequest(service)
 
     }
 
